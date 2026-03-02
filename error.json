@@ -1,0 +1,8 @@
+{
+  "message": "transaction 0.0.7851777@1772481714.677784645 failed precheck with status INVALID_SIGNATURE against node account id 0.0.9",
+  "name": "StatusError",
+  "status": "INVALID_SIGNATURE",
+  "transactionId": "0.0.7851777@1772481714.677784645",
+  "contractFunctionResult": null,
+  "nodeId": "0.0.9"
+}

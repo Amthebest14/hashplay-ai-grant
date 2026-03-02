@@ -1,0 +1,34 @@
+[dotenv@17.3.1] injecting env (4) from .env -- tip: ⚙️  specify custom .env file path with { path: '/custom/path/.env' }
+WARNING: Consider using fromStringECDSA() or fromStringED25519() on a HEX-encoded string and fromStringDer() on a HEX-encoded string with DER prefix instead.
+WARNING: Consider using fromStringECDSA() or fromStringED25519() on a HEX-encoded string and fromStringDer() on a HEX-encoded string with DER prefix instead.
+Creating Token $HASHPLAY...
+Error creating token: n [StatusError]: transaction 0.0.7810956@1772483102.474977814 failed precheck with status INVALID_SIGNATURE against node account id 0.0.4
+    at new n (file:///C:/Users/HP/.gemini/antigravity/scratch/hashplay-ai/node_modules/@hashgraph/sdk/lib/PrecheckStatusError.js:1:66)
+    at c._mapStatusError (file:///C:/Users/HP/.gemini/antigravity/scratch/hashplay-ai/node_modules/@hashgraph/sdk/lib/transaction/Transaction.js:1:18106)
+    at c.execute (file:///C:/Users/HP/.gemini/antigravity/scratch/hashplay-ai/node_modules/@hashgraph/sdk/lib/Executable.js:1:7019)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async main (file:///C:/Users/HP/.gemini/antigravity/scratch/hashplay-ai/scripts/createToken.js:52:27) {
+  status: e { _code: 7 },
+  transactionId: i {
+    accountId: y {
+      shard: [Long],
+      realm: [Long],
+      num: [Long],
+      aliasKey: null,
+      evmAddress: null,
+      _checksum: null
+    },
+    validStart: s { seconds: [Long], nanos: [Long] },
+    scheduled: false,
+    nonce: null
+  },
+  contractFunctionResult: null,
+  nodeId: y {
+    shard: Long { low: 0, high: 0, unsigned: false },
+    realm: Long { low: 0, high: 0, unsigned: false },
+    num: Long { low: 4, high: 0, unsigned: false },
+    aliasKey: null,
+    evmAddress: null,
+    _checksum: null
+  }
+}
